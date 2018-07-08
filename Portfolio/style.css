@@ -1,3 +1,19 @@
 #welcome-section{
     background-color: red;
+    height: 100vh;
+    position: center;
+}
+
+#navbar{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    color: yellow;
+}
+
+@media (max-width: 1000px){ 
+    #welcome-section{
+        background-color: blue;
+    }
 }
