@@ -1,15 +1,36 @@
 #welcome-section{
-    background-color: red;
-    height: 100vh;
-    position: center;
+    background: linear-gradient(red, black);
+    height: 21vh;
+    width: 100vw;
+    max-width:100%;
+    text-align: center;
+    padding: 300px 0;
 }
 
 #navbar{
     position: absolute;
     top: 0;
+    height: 7vh;
+    width: 100vw;
+    max-width:100%;
+    background: dodgerblue;
+    color: green;
+    font-size: 40px;
+}
+
+.intro-box{
+    height: 100vh;
+    width: 100vw;
+    max-width:100%;
+}
+
+body{
+    height: 100%;
     width: 100%;
-    background-color: black;
-    color: yellow;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 @media (max-width: 1000px){ 
