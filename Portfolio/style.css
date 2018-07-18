@@ -35,11 +35,12 @@
     color: black;
     padding: 0;
     margin-top: 0;
+    margin-left: 15px;
     text-align: center;
     display: inline-block;
     font-size: 16px;
     font-style: "Times New Roman";
-    height: 7vh;
+    height: 50px;
     width: 15vw;
 }
 
