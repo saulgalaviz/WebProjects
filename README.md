@@ -5,7 +5,7 @@ Here lie my extracurricular efforts in learning HTML 5, CSS, and Javascript.
 TO DO:
 
 0. Complete the Portfolio (Moved to https://github.com/saulgalaviz/portfolio)
-1. Apply and Upload my JavaScript/js framworks skills to projects.
+1. Apply and upload my JavaScript/js frameworks skills to projects.
 2. Apply my knowledge to a Node.js project
 
 # Sample Works
