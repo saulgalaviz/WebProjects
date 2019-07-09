@@ -13,8 +13,9 @@ COMPLETED:
 
 TO DO:
 1. Push React.js healthcare project online by end of July
-2. Push Angular.js project online
+2. Learn and Push Angular.js project online
 2. Push a Node.js project online 
+3. Push not-so-vanilla portfolio online
 
 # Sample Pages 
 A page that implements HTML 5s interactive fundamentals all into one.
