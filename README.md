@@ -1,11 +1,6 @@
 # Frontend Works
 
-Here lie my efforts in learning HTML 5, CSS, and Javascript Framworks. Afterwards comes backend learning.
-
-Portfolio Page: https://saulgalaviz.github.io/
-
-Portfolio Repo: https://github.com/saulgalaviz/saulgalaviz.github.io
-
+Here lie my efforts in learning HTML 5, CSS, and Javascript Framworks. Afterwards comes backend learning.  
 CURRENTLY WORKING WITH JS REACT
 
 COMPLETED: 
