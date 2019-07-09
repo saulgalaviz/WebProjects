@@ -8,11 +8,14 @@ Portfolio Repo: https://github.com/saulgalaviz/saulgalaviz.github.io
 
 CURRENTLY WORKING WITH JS REACT
 
-COMPLETED:
-1. Vanilla Portfolio
+COMPLETED: 
+1. Vanilla Portfolio  
+Portfolio Page: https://saulgalaviz.github.io/  
+Portfolio Repo: https://github.com/saulgalaviz/saulgalaviz.github.io  
 
 TO DO:
-1. Push React.js healthcare project online by end of July
+1. Push React.js healthcare project online by end of July  
+    React Repo: https://github.com/saulgalaviz/jsReactWorks
 2. Learn and Push Angular.js project online
 2. Push a Node.js project online 
 3. Push not-so-vanilla portfolio online
