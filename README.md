@@ -9,7 +9,7 @@ Portfolio Page: https://saulgalaviz.github.io/
 Portfolio Repo: https://github.com/saulgalaviz/saulgalaviz.github.io  
 
 TO DO:
-1. Push React.js healthcare project UML design online around August
+1. Push React.js healthcare project UML design online 
     React Repo: https://github.com/saulgalaviz/jsReactWorks
 2. Learn and Push Angular.js project online
 2. Push a Node.js project online 
