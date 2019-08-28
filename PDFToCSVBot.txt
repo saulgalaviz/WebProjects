@@ -1,0 +1,31 @@
+	Comment: Check if the file exists in the specified path
+	If File Does Not Exist ("C:\Users\bienh\Desktop\MyDoc\Learning\Automation Anywhere RPA\PDF-Bot\CSV\Destination CSVinvoice.csv") Then  
+	     Message Box: "CSV file not found"
+	Else
+	     Comment: Open the file and position the cursor in cell A2
+	     Excel: Open Spreadsheet "C:\Users\bienh\Desktop\MyDoc\Learning\Automation Anywhere RPA\PDF-Bot\CSV\Destination CSV invoice.csv". ActiveSheet: "Default". Session: Default
+	     Excel: Go to cell "A2". Session: Default
+	     Comment: Open the specified folder and browse all the pdf files within it
+	     If Folder Exists ("C:\Users\bienh\Desktop\MyDoc\Learning\Automation Anywhere RPA\PDF-Bot\PDF")  Then  
+	          Start Loop "Each File In Folder C:\Users\bienh\Desktop\MyDoc\Learning\Automation Anywhere RPA\PDF-Bot\PDF"
+	               Comment: Please enter your commands to loop. Use $filename$.$extension$ variable for each file name in the Loop.
+	               PDF Integration: Extract Form Fields from "C:\Users\bienh\Desktop\MyDoc\Learning\Automation Anywhere RPA\PDF-Bot\PDF\$FileName$.pdf"
+	               Excel: Set value of Active Cell with "$InvoiceNo$". Session: Default
+	               Excel: Go to one cell right of active cell. Session: Default
+	               Excel: Set value of Active Cell with "$Client$". Session: Default
+	               Excel: Go to one cell right of active cell. Session: Default
+	               Excel: Set value of Active Cell with "$InvoiceDate$". Session: Default
+	               Excel: Go to one cell right of active cell. Session: Default
+	               Excel: Set value of Active Cell with "$DueDate$". Session: Default
+	               Excel: Go to one cell right of active cell. Session: Default
+	               Excel: Set value of Active Cell with "$Total$". Session: Default
+	               Excel: Go to one cell right of active cell. Session: Default
+	               Excel: Set value of Active Cell with "$Terms$". Session: Default
+	               Excel: Go to one cell below the active cell. Session: Default
+	               Excel: Go to beginning of the row of the active cell. Session: Default
+	          End Loop
+	     Else
+	          Message Box: "The specified folder was not found"
+	     End If
+	End If
+	Message Box: "The bot has just finished"
